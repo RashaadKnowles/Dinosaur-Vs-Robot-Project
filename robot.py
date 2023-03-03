@@ -7,7 +7,7 @@ class Robot():
         # Instead of setting robot weapon to an integer I set it to the class weapon itself.
 
     def attack(self,dinosaur):
-        self.health -= self.active_weapon.attack_power 
+        dinosaur.health -= self.active_weapon.attack_power 
               
 
             

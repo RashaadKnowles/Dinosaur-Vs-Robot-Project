@@ -18,11 +18,7 @@ class Battlefield():
             self.robot.attack(self.dinosaur)
             if self.dinosaur.health > 0:     
                 self.dinosaur.attack(self.robot)
-        if  self.dinosaur.health <= 0:
-                print("The Battle Has Concluded Robot Won!!")
-        elif self.robot.health <= 0:
-                print("The Battle Has Concluded Dinosaur Won!!")
-
+      
 # make sure to put end of while loop in my display winner section.
 
 
